@@ -1,0 +1,18 @@
+{
+  "name": "pulumi_aws_base_infrastructure",
+  "devDependencies": {
+    "@types/mime": "^2.0.3",
+    "@types/node": "^15.0.1",
+    "@types/ssh2": "^0.5.46",
+    "@types/uuid": "^8.3.0"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^4.1.0",
+    "@pulumi/awsx": "^0.30.0",
+    "@pulumi/pulumi": "^3.1.0",
+    "@pulumi/random": "^4.2.0",
+    "scp2": "^0.5.0",
+    "ssh2": "^0.8.9",
+    "uuid": "^8.3.2"
+  }
+}

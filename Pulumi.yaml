@@ -1,0 +1,3 @@
+name: pulumi_aws_base_infrastructure
+runtime: nodejs
+description: pulumi_aws_base_infrastructure

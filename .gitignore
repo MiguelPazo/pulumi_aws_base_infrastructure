@@ -1,0 +1,14 @@
+/.idea
+*.iml
+/node_modules
+package-lock.json
+*.rdb
+*.pem
+/bin
+*.log*
+.DS_Store
+.env
+coverage
+Pulumi.dev.yaml
+Pulumi.production.yaml
+notes.txt

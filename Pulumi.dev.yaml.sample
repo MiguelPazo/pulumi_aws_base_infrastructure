@@ -1,0 +1,10 @@
+config:
+  aws:profile: aws_profile
+  aws:region: ca-central-1
+  pulumi_aws_base_infrastructure:generalTagName: app1
+  pulumi_aws_base_infrastructure:keyName: app1
+  pulumi_aws_base_infrastructure:numberOfNatGateways: 0
+  pulumi_aws_base_infrastructure:webserverInstanceType: t3.micro
+  pulumi_aws_base_infrastructure:referenceCerts: mpazo/pulumi_aws_create_certificates/app1_dev
+  pulumi_aws_base_infrastructure:targetDomain: auth-dev.app1-dev.com
+  pulumi_aws_base_infrastructure:targetDomainDev: auth2-dev.app1-dev.com

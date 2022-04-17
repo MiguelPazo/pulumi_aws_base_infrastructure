@@ -1,0 +1,19 @@
+{
+  "name": "AWSManagedRulesAmazonIpReputationList",
+  "overrideAction": {
+    "none": {}
+  },
+  "priority": 2,
+  "statement": {
+    "managedRuleGroupStatement": {
+      "excludedRules": [],
+      "name": "AWSManagedRulesAmazonIpReputationList",
+      "vendorName": "AWS"
+    }
+  },
+  "visibilityConfig": {
+    "cloudwatchMetricsEnabled": true,
+    "metricName": "AWSManagedRulesAmazonIpReputationList",
+    "sampledRequestsEnabled": true
+  }
+}

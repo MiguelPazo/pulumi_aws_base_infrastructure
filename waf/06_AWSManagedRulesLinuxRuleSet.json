@@ -1,0 +1,19 @@
+{
+  "name": "AWSManagedRulesLinuxRuleSet",
+  "overrideAction": {
+    "none": {}
+  },
+  "priority": 6,
+  "statement": {
+    "managedRuleGroupStatement": {
+      "excludedRules": [],
+      "name": "AWSManagedRulesLinuxRuleSet",
+      "vendorName": "AWS"
+    }
+  },
+  "visibilityConfig": {
+    "cloudwatchMetricsEnabled": true,
+    "metricName": "AWSManagedRulesLinuxRuleSet",
+    "sampledRequestsEnabled": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "AWSManagedRulesAnonymousIpList",
+  "overrideAction": {
+    "none": {}
+  },
+  "priority": 3,
+  "statement": {
+    "managedRuleGroupStatement": {
+      "excludedRules": [],
+      "name": "AWSManagedRulesAnonymousIpList",
+      "vendorName": "AWS"
+    }
+  },
+  "visibilityConfig": {
+    "cloudwatchMetricsEnabled": true,
+    "metricName": "AWSManagedRulesAnonymousIpList",
+    "sampledRequestsEnabled": true
+  }
+}

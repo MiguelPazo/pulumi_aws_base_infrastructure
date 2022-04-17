@@ -1,0 +1,19 @@
+{
+  "name": "AWSManagedRulesCommonRuleSet",
+  "overrideAction": {
+    "none": {}
+  },
+  "priority": 4,
+  "statement": {
+    "managedRuleGroupStatement": {
+      "excludedRules": [],
+      "name": "AWSManagedRulesCommonRuleSet",
+      "vendorName": "AWS"
+    }
+  },
+  "visibilityConfig": {
+    "cloudwatchMetricsEnabled": true,
+    "metricName": "AWSManagedRulesCommonRuleSet",
+    "sampledRequestsEnabled": true
+  }
+}

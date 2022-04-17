@@ -1,0 +1,19 @@
+{
+  "name": "AWSManagedRulesKnownBadInputsRuleSet",
+  "overrideAction": {
+    "none": {}
+  },
+  "priority": 5,
+  "statement": {
+    "managedRuleGroupStatement": {
+      "excludedRules": [],
+      "name": "AWSManagedRulesKnownBadInputsRuleSet",
+      "vendorName": "AWS"
+    }
+  },
+  "visibilityConfig": {
+    "cloudwatchMetricsEnabled": true,
+    "metricName": "AWSManagedRulesKnownBadInputsRuleSet",
+    "sampledRequestsEnabled": true
+  }
+}

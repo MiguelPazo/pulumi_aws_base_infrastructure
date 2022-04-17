@@ -1,0 +1,13 @@
+config:
+  aws:profile: aws_profile
+  aws:region: us-east-1
+  pulumi_aws_base_infrastructure:generalTagName: app1
+  pulumi_aws_base_infrastructure:keyName: app1
+  pulumi_aws_base_infrastructure:numberOfNatGateways: 1
+  pulumi_aws_base_infrastructure:webserverInstanceType: t3.micro
+  pulumi_aws_base_infrastructure:referenceCerts: mpazo/pulumi_aws_create_certificates/app1_production
+  pulumi_aws_base_infrastructure:targetDomain: auth.app1.com
+  pulumi_aws_base_infrastructure:auroraInstanceType: db.t3.small
+  pulumi_aws_base_infrastructure:auroraNodes: 1
+  pulumi_aws_base_infrastructure:redisInstanceType: cache.t3.micro
+  pulumi_aws_base_infrastructure:redisNodes: 1
